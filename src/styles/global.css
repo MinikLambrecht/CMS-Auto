@@ -1,0 +1,16 @@
+body {
+  background-color: #FBFCF8;
+}
+
+.svg-inline--fa {
+  height: 1em;
+}
+
+main > .container {
+  padding: 20px 20px 62px 20px ;
+}
+
+footer {
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+}

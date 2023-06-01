@@ -1,0 +1,9 @@
+.avatar {
+  height: 7em;
+  width: 7em;
+  background-color: var(--bs-teal)
+}
+
+.avatar:hover > svg {
+  color: var(--bs-dark);
+}

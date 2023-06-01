@@ -1,0 +1,24 @@
+.carousel {
+  max-height: 500px;
+}
+
+.carousel-item > img {
+  max-height: 425px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 3em;
+  height: 3em;
+}
+
+@media (max-width: 450px) {
+    .carousel-item > img {
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+    .carousel-item > img {
+        max-height: 285px;
+    }
+}

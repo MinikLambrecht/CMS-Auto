@@ -1,0 +1,25 @@
+.card {
+  max-width: 800px;
+}
+
+.card-body {
+  border-top: var(--bs-card-border-width) solid var(--bs-card-border-color) !important;
+  background-color: #E1E1DD !important;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 2em;
+}
+
+.carousel {
+  max-height: 300px;
+}
+
+.carousel-item > img {
+  max-height: 225px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 3em;
+  height: 3em;
+}

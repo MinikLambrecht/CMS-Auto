@@ -1,0 +1,77 @@
+.modalOnlyContent,
+.socialPanel {
+  font-family: 'Open Sans' !important;
+  margin: 0;
+}
+
+.postAuthorWrapper {
+  padding-bottom: 0.85rem !important;
+}
+
+.postedText,
+.font7 {
+    font-family: 'Open Sans' !important;
+}
+
+.authorInfo > div > img,
+.postAuthorWrapper > img {
+    content: url(/images/CMSAuto-FBImage.jpg);
+}
+
+.postAuthorWrapper,
+.socialPanel {
+  background-color: var(--bs-dark);
+}
+
+.themeStart3 .post {
+  box-shadow: 0 1px 4px rgba(var(--bs-dark-rgb),.55) !important;
+  -webkit-box-shadow: 0 1px 4px rgba(var(--bs-dark-rgb),.55) !important;
+  -moz-box-shadow: 0 1px 4px rgba(var(--bs-dark-rgb),.55) !important;
+  box-shadow: 0 3px 6px rgba(var(--bs-dark-rgb),.5) !important;
+}
+
+.socialPostAction {
+  background-color: var(--bs-border-color-translucent) !important;
+}
+
+.postAuthorDetails > .postAuthorName,
+.postAuthorDetails > .postAuthorShort > .postAuthorHandle,
+.postAuthorDetails > .postAuthorShort > .timePost,
+.popupSocialLink {
+  color: var(--bs-light) !important;
+}
+
+.postAuthorDetails > .postAuthorShort > .sepratedot {
+    color: var(--bs-gray-900) !important;
+}
+
+.cardPostCTA, .popupSocialLink, .postAuthorInfo, .poweredBy {
+  font-family: inherit !important;
+}
+
+.slick-slider .slick-dots li button {
+  border-radius: 0% !important;
+  height: 0px !important;
+  width: 16px !important;
+}
+
+.slick-slider .slick-dots li.slick-active button {
+  border-color: var(--bs-success);
+}
+
+.onMobileContent .modalCloseWrapper, .onMobileContent .slideBtn {
+  margin-top: 0 !important;
+}
+
+.onMobileContent.modal-text-image .tagembedContentWrapper.contentCardN7 .modalOnlyContent, .onMobileContent.modal-text-image .tagembedContentWrapper.contentCardN8 .modalOnlyContent, .onMobileContent.modal-text-image .tagembedImageWrapper {
+  height: 30em !important;
+}
+
+video.videoMax100 {
+  object-fit: cover !important;
+}
+
+.modal-text-image .tagembedImageWrapper img,
+.onMobileContent .tagembedImageWrapper iframe, .onMobileContent .tagembedImageWrapper video {
+  object-fit: cover !important;
+}
